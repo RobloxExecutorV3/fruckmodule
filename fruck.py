@@ -38,5 +38,3 @@ class FruckModule(loader.Module):
 
         follow_up_message = f"You're a cool person {user_input}!"
         await utils.answer(message, follow_up_message)
-
-# Optional: Add any additional commands or aliases
